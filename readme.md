@@ -14,7 +14,7 @@ Now after this is done, you can start the backend server with the command: "node
 
 After starting Backend, lets move to frontend. Now for installation, again create a new seperate terminal pointing to the root folder. 
 Run the following commands:
-1) cd ./Frontend/frontend/
+1) cd ./frontendreact/
 2) npm i
 
 Now after this is done, you can start the frontend using the following command:
