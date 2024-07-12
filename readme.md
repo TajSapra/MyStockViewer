@@ -34,4 +34,4 @@ please replace this in Backend nodejs code line 12 as key.
 Path:
 ./Backend/cron/updatePriceInDb.js
 
-PS: The desiging of Frontend is not given focus as it can be subjective. To see my Frontend style, can discuss that over call.
+PS: The desiging of Frontend is not given focus as it can be subjective. To see my Frontend work in more details, can discuss that over call where I can show you my projects in my current organisation.
