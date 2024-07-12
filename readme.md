@@ -1,7 +1,7 @@
 Hello.
 Setup+Installation Guide:
 Clone repo on your system from Github.
-There are 2 folders for both BE and FE.
+There are 2 folders for BE and FE respectively.
 The Mongo DB has been hosted online so you dont need to setup that on your local machine. The credentials have been directly added in code.
 
 Setup of BE:
