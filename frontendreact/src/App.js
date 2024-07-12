@@ -45,7 +45,7 @@ function App() {
   return (
     <div className="App">
       <h1>My Stock Price Viewer</h1>
-      <div>
+      <div className="dropdown-container">
         <Dropdown 
           options={['AAPL', 'MSFT', 'TSLA', 'NVDA', 'AMZN']} 
           onSelect={(key) => {
@@ -53,8 +53,8 @@ function App() {
           }} 
         />
       </div>
-      <div>Selected Value: {valueReducer.value || 'AAPL'}</div>
-      <div>
+      <div className="selected-value">Selected Value: {valueReducer.value || 'AAPL'}</div>
+      <div className="table-container">
         <table>
           <thead>
             <tr>
@@ -77,7 +77,7 @@ function App() {
           </tbody>
         </table>
       </div>
-      <div>Last Refreshed: {formatTime(valueReducer.lastRefreshTime)}</div>
+      <div className="last-refreshed">Last Refreshed: {formatTime(valueReducer.lastRefreshTime)}</div>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Dropdown.css';
 const Dropdown = ({ options, onSelect, selectedOption }) => {
 
     const handleChange = (event) => {
@@ -8,11 +8,11 @@ const Dropdown = ({ options, onSelect, selectedOption }) => {
     };
 
     return (
-        <div>
-            <select value={selectedOption} onChange={handleChange}>
+        <div className='dropdown-container'>
+            <select value={selectedOption} onChange={handleChange} className='dropdown-select'>
                 <option value="" disabled>Select an option</option>
                 {options.map((option, index) => (
-                    <option key={index} value={option}>
+                    <option key={index} value={option} className="dropdown-option">
                         {option}
                     </option>
                 ))}
