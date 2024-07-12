@@ -20,6 +20,18 @@ Run the following commands:
 Now after this is done, you can start the frontend using the following command:
 "npm run start"
 
-Please Note: Run Frontend only after Backend code is up and running.
+Please Note: 
+1) Run Frontend only after Backend code is up and running.
+2) The getting live stock price api had a free plan with limited number of requests to the api. So after sometime it may stop working if the cron works for too long.
+refer: https://rapidapi.com/sparior/api/yahoo-finance15/pricing
+
+for rate limiting.
+
+Alternate Api Key:
+b9fcfc9b22msh3966c94e27f273ap1bba4fjsn50e0156785ba
+please replace this in Backend nodejs code line 12 as key.
+
+Path:
+./Backend/cron/updatePriceInDb.js
 
 PS: The desiging of Frontend is not given focus as it can be subjective. To see my Frontend style, can discuss that over call.
